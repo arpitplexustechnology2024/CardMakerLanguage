@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "You can change language anytime in the menu bar."; ObjectID = "BIw-4h-aCP"; */
+"BIw-4h-aCP.text" = "You can change language anytime in the menu bar.";
+
+/* Class = "UIButton"; configuration.title = "Done"; ObjectID = "FMh-hX-tcF"; */
+"FMh-hX-tcF.configuration.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FMh-hX-tcF"; */
+"FMh-hX-tcF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Urdu"; ObjectID = "Hzn-b3-HAF"; */
+"Hzn-b3-HAF.text" = "Urdu";
+
+/* Class = "UILabel"; text = "Fill the information for \nwhich you want to make the card"; ObjectID = "JqC-C3-djN"; */
+"JqC-C3-djN.text" = "Fill the information for \nwhich you want to make the card";
+
+/* Class = "UILabel"; text = "Thousands of cards to teasing your friends, \ngroups, families, lovers."; ObjectID = "OdD-Qh-4px"; */
+"OdD-Qh-4px.text" = "Thousands of cards to teasing your friends, \ngroups, families, lovers.";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "SOg-lU-kGu"; */
+"SOg-lU-kGu.text" = "English";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "XtY-H1-0wR"; */
+"XtY-H1-0wR.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XtY-H1-0wR"; */
+"XtY-H1-0wR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Choose any one \nfunny card from comical\ncard maker"; ObjectID = "bDj-rG-g3d"; */
+"bDj-rG-g3d.text" = "Choose any one \nfunny card from comical\ncard maker";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "ddv-Oo-bRf"; */
+"ddv-Oo-bRf.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ddv-Oo-bRf"; */
+"ddv-Oo-bRf.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Challenge someone else to create your\nfunny card"; ObjectID = "h52-IT-WjB"; */
+"h52-IT-WjB.text" = "Challenge someone else to create your\nfunny card";
+
+/* Class = "UILabel"; text = "Spanish"; ObjectID = "hVg-oD-kgf"; */
+"hVg-oD-kgf.text" = "Spanish";
+
+/* Class = "UILabel"; text = "Enter the funny information of the card you\nwant to make and if you get confused."; ObjectID = "igL-6P-n3w"; */
+"igL-6P-n3w.text" = "Enter the funny information of the card you\nwant to make and if you get confused.";
+
+/* Class = "UILabel"; text = "Hindi"; ObjectID = "nMU-97-DrI"; */
+"nMU-97-DrI.text" = "Hindi";
+
+/* Class = "UILabel"; text = "You will be card based on your language"; ObjectID = "sm6-Mc-mTa"; */
+"sm6-Mc-mTa.text" = "You will be card based on your language";
+
+/* Class = "UILabel"; text = "Choose your perfect\nlanguage"; ObjectID = "tiW-sO-Xx9"; */
+"tiW-sO-Xx9.text" = "Choose your perfect\nlanguage";
+
+/* Class = "UILabel"; text = "Save or share the \ncreated funny card"; ObjectID = "vHc-zt-Lrt"; */
+"vHc-zt-Lrt.text" = "Save or share the \ncreated funny card";
+
+/* Class = "UIButton"; configuration.title = "Let's go"; ObjectID = "x3G-Bj-4nw"; */
+"x3G-Bj-4nw.configuration.title" = "Let's go";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "x3G-Bj-4nw"; */
+"x3G-Bj-4nw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Franch"; ObjectID = "xaY-bN-jye"; */
+"xaY-bN-jye.text" = "Franch";
