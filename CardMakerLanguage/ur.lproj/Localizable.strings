@@ -5,3 +5,22 @@
   Created by Arpit iOS Dev. on 03/06/24.
   
 */
+
+"LanguageScreenTitleKey" = "اپنی کامل زبان\nمنتخب کریں۔";
+"LanguageScreenDescriptionKey" = "آپ کو آپ کی زبان کی بنیاد پر کارڈ بنایا جائے گا۔";
+"languageHindiBtnKey" = "ہندی";
+"languageEnglishBtnKey" = "انگریزی";
+"languageSpanishBtnKey" = "ہسپانوی";
+"languageUrduBtnKey" = "اردو";
+"languageFrenchBtnKey" = "فرانسیسی";
+"languageLetsGoBtnKey" = "چلو";
+"LanguageScreenNoteKey" = "آپ مینو بار میں کسی بھی وقت زبان تبدیل کر سکتے ہیں۔";
+"Intro01ScreenTitleKey" = "مزاحیہکارڈ بنانے والے سے کوئی ایک مضحکہ خیز کارڈ منتخب کریں۔";
+"Intro01ScreenDescriptionKey" = "اپنے دوستوں، گروپوں، خاندانوں، محبت کرنے والوں کو چھیڑنے کے لیے ہزاروں کارڈز۔";
+"Intro01NextBtnKey" = "اگلے";
+"Intro02ScreenTitleKey" = "جو آپ کارڈ بنانا چاہتے ہیں اس کے لیے معلومات پُر کریں۔";
+"Intro02ScreenDescriptionKey" = "کارڈ کی مضحکہ خیز معلومات درج کریں جو آپ بنانا چاہتے ہیں اور اگر آپ کو الجھن ہو.";
+"Intro02NextBtnKey" = "اگلے";
+"Intro03ScreenTitleKey" = "بنایا ہوا مضحکہ خیز کارڈ محفوظ کریں یا شیئر کریں۔";
+"Intro03ScreenDescriptionKey" = "اپنا مضحکہ خیز کارڈ بنانے کے لیے کسی اور کو چیلنج کریں۔";
+"Intro03DoneBtnKey" = "ہو گیا";

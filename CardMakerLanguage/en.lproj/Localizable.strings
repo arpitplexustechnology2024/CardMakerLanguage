@@ -5,3 +5,22 @@
   Created by Arpit iOS Dev. on 03/06/24.
   
 */
+
+"LanguageScreenTitleKey" = "Choose your perfect\nlanguage";
+"LanguageScreenDescriptionKey" = "You will be card based on your language";
+"languageHindiBtnKey" = "Hindi";
+"languageEnglishBtnKey" = "English";
+"languageSpanishBtnKey" = "Spanish";
+"languageUrduBtnKey" = "Urdu";
+"languageFrenchBtnKey" = "French";
+"languageLetsGoBtnKey" = "Let's go";
+"LanguageScreenNoteKey" = "You can change language anytime in the menu bar.";
+"Intro01ScreenTitleKey" = "Choose any one \nfunny card from comical\ncard maker";
+"Intro01ScreenDescriptionKey" = "Thousands of cards to teasing your friends, \ngroups, families, lovers.";
+"Intro01NextBtnKey" = "Next";
+"Intro02ScreenTitleKey" = "Fill the information for \nwhich you want to make \nthe card";
+"Intro02ScreenDescriptionKey" = "Enter the funny information of the card you\nwant to make and if you get confused.";
+"Intro02NextBtnKey" = "Next";
+"Intro03ScreenTitleKey" = "Save or share the \ncreated funny card";
+"Intro03ScreenDescriptionKey" = "Challenge someone else to create your\nfunny card";
+"Intro03DoneBtnKey" = "Done";

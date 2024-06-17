@@ -5,3 +5,22 @@
   Created by Arpit iOS Dev. on 03/06/24.
   
 */
+
+"LanguageScreenTitleKey" = "Elige tu\nidioma perfecto";
+"LanguageScreenDescriptionKey" = "Recibirás una tarjeta según tu idioma.";
+"languageHindiBtnKey" = "hindi";
+"languageEnglishBtnKey" = "Inglesa";
+"languageSpanishBtnKey" = "Española";
+"languageUrduBtnKey" = "urdu";
+"languageFrenchBtnKey" = "Francesa";
+"languageLetsGoBtnKey" = "Vamos";
+"LanguageScreenNoteKey" = "Puede cambiar el idioma en cualquier momento en la barra de menú.";
+"Intro01ScreenTitleKey" = "Elija cualquier tarjeta \ndivertida del creador de tarjetas cómicas";
+"Intro01ScreenDescriptionKey" = "Miles de tarjetas para burlarte de tus amigos, \ngrupos, familias y amantes.";
+"Intro01NextBtnKey" = "Próxima";
+"Intro02ScreenTitleKey" = "Complete la información para la cual desea hacer la tarjeta";
+"Intro02ScreenDescriptionKey" = "Introduce la información divertida de la tarjeta que deseas hacer y si te confundes.";
+"Intro02NextBtnKey" = "Próxima";
+"Intro03ScreenTitleKey" = "Guarda o comparte la tarjeta divertida creada";
+"Intro03ScreenDescriptionKey" = "Desafía a otra persona a crear tu tarjeta divertida";
+"Intro03DoneBtnKey" = "Hecho";

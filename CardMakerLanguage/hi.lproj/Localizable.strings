@@ -5,3 +5,22 @@
   Created by Arpit iOS Dev. on 03/06/24.
   
 */
+
+"LanguageScreenTitleKey" = "अपनी आदर्श\nभाषा चुनें";
+"LanguageScreenDescriptionKey" = "आपकी भाषा के आधार पर आपका कार्ड बनेगा";
+"languageHindiBtnKey" = "हिंदी";
+"languageEnglishBtnKey" = "अंग्रेज़ी";
+"languageSpanishBtnKey" = "स्पैनिश";
+"languageUrduBtnKey" = "उर्दू";
+"languageFrenchBtnKey" = "फ़्रेंच";
+"languageLetsGoBtnKey" = "चल दर";
+"LanguageScreenNoteKey" = "आप मेनू बार में किसी भी समय भाषा बदल सकते हैं।";
+"Intro01ScreenTitleKey" = "कॉमिकल कार्ड मेकर में से कोई एक \nमजेदार कार्ड चुनें";
+"Intro01ScreenDescriptionKey" = "अपने दोस्तों, समूहों, परिवारों, प्रेमियों को चिढ़ाने के लिए हजारों कार्ड।";
+"Intro01NextBtnKey" = "अगला";
+"Intro02ScreenTitleKey" = "आप जिस \nका कार्ड बनवाना चाहते हैं उसकी जानकारी भरें";
+"Intro02ScreenDescriptionKey" = "आप जो कार्ड बनाना चाहते हैं उसकी मजेदार जानकारी दर्ज करें और यदि आप भ्रमित हों तो।";
+"Intro02NextBtnKey" = "अगला";
+"Intro03ScreenTitleKey" = "बनाए गए मज़ेदार कार्ड को सहेजें या साझा करें";
+"Intro03ScreenDescriptionKey" = "अपना\nमज़ेदार कार्ड बनाने के लिए किसी और को चुनौती दें";
+"Intro03DoneBtnKey" = "हो गया";

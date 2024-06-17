@@ -2,7 +2,7 @@
 //  LanguageViewController.swift
 //  CardMakerLanguage
 //
-//  Created by Arpit Dhameliya on 02/06/24.
+//  Created by Arpit iOS Dev. on 03/06/24.
 //
 
 import UIKit
@@ -35,11 +35,19 @@ class LanguageViewController: UIViewController {
     @IBOutlet weak var urduLabel: UILabel!
     @IBOutlet weak var frenchLabel: UILabel!
     
-    var selectedLanguage : String?
-
+    var selectedLanguage: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if UserDefaults.standard.bool(forKey: LanguageSet.languageScreenKey) {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Intro01ViewController") as! Intro01ViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+            print("Select Language")
+        } else {
+            print("Not Select Language")
+        }
+        
         setupRadioBoader()
         setupRadioButtons()
         labelColorChange()
@@ -68,10 +76,11 @@ class LanguageViewController: UIViewController {
     }
     
     @IBAction func btnLetsGoTapped(_ sender: UIButton) {
+        UserDefaults.standard.set(true, forKey: LanguageSet.languageScreenKey)
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Intro01ViewController") as! Intro01ViewController
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
-   
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     // All Radio Button Action
     @IBAction func languageSelected(_ sender: UIButton) {
         resetButtons()
@@ -83,7 +92,7 @@ class LanguageViewController: UIViewController {
             if traitCollection.userInterfaceStyle == .dark {
                 // Dark mode color
                 setViewBorderColors(hindiborder: .customOrange, englishborder: .white, spanishborder: .white, urduborder: .white, frenchborder: .white)
-                setViewColors(hindiview: #colorLiteral(red: 0.9803921569, green: 0.4, blue: 0.2039215686, alpha: 1), englishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), spanishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), urduview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), frenchview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1))
+                setViewColors(hindiview:.customOrange, englishview: .customBlack, spanishview: .customBlack, urduview:.customBlack, frenchview: .customBlack)
             } else {
                 // Light mode color
                 setViewBorderColors(hindiborder: .customOrange, englishborder: .black, spanishborder: .black, urduborder: .black, frenchborder: .black)
@@ -97,7 +106,7 @@ class LanguageViewController: UIViewController {
             if traitCollection.userInterfaceStyle == .dark {
                 // Dark mode color
                 setViewBorderColors(hindiborder: .white, englishborder: .customOrange, spanishborder: .white, urduborder: .white, frenchborder: .white)
-                setViewColors(hindiview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), englishview: #colorLiteral(red: 0.9803921569, green: 0.4, blue: 0.2039215686, alpha: 1), spanishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), urduview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), frenchview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1))
+                setViewColors(hindiview:.customBlack, englishview: .customOrange, spanishview: .customBlack, urduview:.customBlack, frenchview: .customBlack)
             } else {
                 // Light mode color
                 setViewBorderColors(hindiborder: .black, englishborder: .customOrange, spanishborder: .black, urduborder: .black, frenchborder: .black)
@@ -111,7 +120,7 @@ class LanguageViewController: UIViewController {
             if traitCollection.userInterfaceStyle == .dark {
                 // Dark mode color
                 setViewBorderColors(hindiborder: .white, englishborder: .white, spanishborder: .customOrange, urduborder: .white, frenchborder: .white)
-                setViewColors(hindiview:#colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), englishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), spanishview: #colorLiteral(red: 0.9803921569, green: 0.4, blue: 0.2039215686, alpha: 1), urduview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), frenchview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1))
+                setViewColors(hindiview:.customBlack, englishview: .customBlack, spanishview: .customOrange, urduview:.customBlack, frenchview: .customBlack)
             } else {
                 // Light mode color
                 setViewBorderColors(hindiborder: .black, englishborder: .black, spanishborder: .customOrange, urduborder: .black, frenchborder: .black)
@@ -125,7 +134,7 @@ class LanguageViewController: UIViewController {
             if traitCollection.userInterfaceStyle == .dark {
                 // Dark mode color
                 setViewBorderColors(hindiborder: .white, englishborder: .white, spanishborder: .white, urduborder: .customOrange, frenchborder: .white)
-                setViewColors(hindiview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), englishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), spanishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), urduview: #colorLiteral(red: 0.9803921569, green: 0.4, blue: 0.2039215686, alpha: 1), frenchview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1))
+                setViewColors(hindiview:.customBlack, englishview: .customBlack, spanishview: .customBlack, urduview:.customOrange, frenchview: .customBlack)
             } else {
                 // Light mode color
                 setViewBorderColors(hindiborder: .black, englishborder: .black, spanishborder: .black, urduborder: .customOrange, frenchborder: .black)
@@ -139,7 +148,7 @@ class LanguageViewController: UIViewController {
             if traitCollection.userInterfaceStyle == .dark {
                 // Dark mode color
                 setViewBorderColors(hindiborder: .white, englishborder: .white, spanishborder: .white, urduborder: .white, frenchborder: .customOrange)
-                setViewColors(hindiview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), englishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), spanishview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), urduview: #colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1), frenchview: #colorLiteral(red: 0.9803921569, green: 0.4, blue: 0.2039215686, alpha: 1))
+                setViewColors(hindiview:.customBlack, englishview: .customBlack, spanishview: .customBlack, urduview:.customBlack, frenchview: .customOrange)
             } else {
                 // Light mode color
                 setViewBorderColors(hindiborder: .black, englishborder: .black, spanishborder: .black, urduborder: .black, frenchborder: .customOrange)
@@ -151,14 +160,11 @@ class LanguageViewController: UIViewController {
         default:
             selectedLanguage = nil
         }
-        
-        if let language = selectedLanguage {
-            UserDefaults.standard.set(language, forKey: "selectedLanguage")
-            UserDefaults.standard.synchronize()
-        }
+        UserDefaults.standard.set(selectedLanguage, forKey: LanguageSet.languageSelected)
+        UserDefaults.standard.synchronize()
     }
-   
-
+    
+    
 }
 
 extension LanguageViewController {

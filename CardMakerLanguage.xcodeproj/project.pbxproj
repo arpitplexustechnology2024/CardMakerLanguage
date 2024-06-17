@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7B438E2C0E45250033D761 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B438D2C0E45250033D761 /* extension.swift */; };
+		BD7B43902C0E566D0033D761 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B438F2C0E566D0033D761 /* UpdateViewController.swift */; };
 		BDC03C822C0E25F100CE6BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03C812C0E25F100CE6BB6 /* AppDelegate.swift */; };
 		BDC03C842C0E25F100CE6BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03C832C0E25F100CE6BB6 /* SceneDelegate.swift */; };
-		BDC03C862C0E25F100CE6BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03C852C0E25F100CE6BB6 /* ViewController.swift */; };
-		BDC03C892C0E25F100CE6BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDC03C882C0E25F100CE6BB6 /* Base */; };
-		BDC03C8C2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDC03C8A2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodeld */; };
 		BDC03C8E2C0E25F300CE6BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC03C8D2C0E25F300CE6BB6 /* Assets.xcassets */; };
-		BDC03C912C0E25F300CE6BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDC03C902C0E25F300CE6BB6 /* Base */; };
 		BDC03C9C2C0E25F300CE6BB6 /* CardMakerLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03C9B2C0E25F300CE6BB6 /* CardMakerLanguageTests.swift */; };
 		BDC03CA62C0E25F300CE6BB6 /* CardMakerLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CA52C0E25F300CE6BB6 /* CardMakerLanguageUITests.swift */; };
 		BDC03CA82C0E25F300CE6BB6 /* CardMakerLanguageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CA72C0E25F300CE6BB6 /* CardMakerLanguageUITestsLaunchTests.swift */; };
+		BDC03CBE2C0E265400CE6BB6 /* Intro01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CB42C0E265400CE6BB6 /* Intro01ViewController.swift */; };
+		BDC03CBF2C0E265400CE6BB6 /* Intro02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CB52C0E265400CE6BB6 /* Intro02ViewController.swift */; };
+		BDC03CC02C0E265400CE6BB6 /* Intro03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CB62C0E265400CE6BB6 /* Intro03ViewController.swift */; };
+		BDC03CC12C0E265400CE6BB6 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CB72C0E265400CE6BB6 /* LanguageViewController.swift */; };
+		BDC03CC22C0E265400CE6BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC03CBA2C0E265400CE6BB6 /* LaunchScreen.storyboard */; };
+		BDC03CC32C0E265400CE6BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC03CBC2C0E265400CE6BB6 /* Main.storyboard */; };
+		BDC03CC52C0E268100CE6BB6 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC03CC42C0E268100CE6BB6 /* Color.xcassets */; };
+		BDC03CC82C0E27E600CE6BB6 /* StaticFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC03CC72C0E27E600CE6BB6 /* StaticFunction.swift */; };
+		BDC03CD82C0E30C500CE6BB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC03CD72C0E30C500CE6BB6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +44,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD7B438D2C0E45250033D761 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		BD7B438F2C0E566D0033D761 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		BDC03C7E2C0E25F100CE6BB6 /* CardMakerLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardMakerLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC03C812C0E25F100CE6BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC03C832C0E25F100CE6BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDC03C852C0E25F100CE6BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDC03C882C0E25F100CE6BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BDC03C8B2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardMakerLanguage.xcdatamodel; sourceTree = "<group>"; };
 		BDC03C8D2C0E25F300CE6BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDC03C902C0E25F300CE6BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDC03C922C0E25F300CE6BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDC03C972C0E25F300CE6BB6 /* CardMakerLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMakerLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC03C9B2C0E25F300CE6BB6 /* CardMakerLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMakerLanguageTests.swift; sourceTree = "<group>"; };
 		BDC03CA12C0E25F300CE6BB6 /* CardMakerLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMakerLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC03CA52C0E25F300CE6BB6 /* CardMakerLanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMakerLanguageUITests.swift; sourceTree = "<group>"; };
 		BDC03CA72C0E25F300CE6BB6 /* CardMakerLanguageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMakerLanguageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC03CB42C0E265400CE6BB6 /* Intro01ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro01ViewController.swift; sourceTree = "<group>"; };
+		BDC03CB52C0E265400CE6BB6 /* Intro02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro02ViewController.swift; sourceTree = "<group>"; };
+		BDC03CB62C0E265400CE6BB6 /* Intro03ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro03ViewController.swift; sourceTree = "<group>"; };
+		BDC03CB72C0E265400CE6BB6 /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		BDC03CB92C0E265400CE6BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDC03CBB2C0E265400CE6BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC03CC42C0E268100CE6BB6 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		BDC03CC72C0E27E600CE6BB6 /* StaticFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFunction.swift; sourceTree = "<group>"; };
+		BDC03CCB2C0E2FE600CE6BB6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		BDC03CCD2C0E2FF500CE6BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		BDC03CCE2C0E300A00CE6BB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		BDC03CCF2C0E301E00CE6BB6 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Main.strings; sourceTree = "<group>"; };
+		BDC03CD02C0E302700CE6BB6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		BDC03CD62C0E30C500CE6BB6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC03CD92C0E30C800CE6BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC03CDA2C0E30CD00CE6BB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC03CDB2C0E30CF00CE6BB6 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC03CDC2C0E30D000CE6BB6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD7B43912C0E74940033D761 /* GlobelFille */ = {
+			isa = PBXGroup;
+			children = (
+				BDC03CC72C0E27E600CE6BB6 /* StaticFunction.swift */,
+				BD7B438D2C0E45250033D761 /* extension.swift */,
+			);
+			path = GlobelFille;
+			sourceTree = "<group>";
+		};
 		BDC03C752C0E25F100CE6BB6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +133,14 @@
 		BDC03C802C0E25F100CE6BB6 /* CardMakerLanguage */ = {
 			isa = PBXGroup;
 			children = (
-				BDC03C812C0E25F100CE6BB6 /* AppDelegate.swift */,
-				BDC03C832C0E25F100CE6BB6 /* SceneDelegate.swift */,
-				BDC03C852C0E25F100CE6BB6 /* ViewController.swift */,
-				BDC03C872C0E25F100CE6BB6 /* Main.storyboard */,
+				BD7B43912C0E74940033D761 /* GlobelFille */,
+				BDC03CC62C0E273400CE6BB6 /* Delegate */,
+				BDC03CB82C0E265400CE6BB6 /* Controller */,
+				BDC03CBD2C0E265400CE6BB6 /* View */,
+				BDC03CD72C0E30C500CE6BB6 /* Localizable.strings */,
 				BDC03C8D2C0E25F300CE6BB6 /* Assets.xcassets */,
-				BDC03C8F2C0E25F300CE6BB6 /* LaunchScreen.storyboard */,
+				BDC03CC42C0E268100CE6BB6 /* Color.xcassets */,
 				BDC03C922C0E25F300CE6BB6 /* Info.plist */,
-				BDC03C8A2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodeld */,
 			);
 			path = CardMakerLanguage;
 			sourceTree = "<group>";
@@ -128,6 +160,36 @@
 				BDC03CA72C0E25F300CE6BB6 /* CardMakerLanguageUITestsLaunchTests.swift */,
 			);
 			path = CardMakerLanguageUITests;
+			sourceTree = "<group>";
+		};
+		BDC03CB82C0E265400CE6BB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDC03CB72C0E265400CE6BB6 /* LanguageViewController.swift */,
+				BDC03CB42C0E265400CE6BB6 /* Intro01ViewController.swift */,
+				BDC03CB52C0E265400CE6BB6 /* Intro02ViewController.swift */,
+				BDC03CB62C0E265400CE6BB6 /* Intro03ViewController.swift */,
+				BD7B438F2C0E566D0033D761 /* UpdateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDC03CBD2C0E265400CE6BB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDC03CBC2C0E265400CE6BB6 /* Main.storyboard */,
+				BDC03CBA2C0E265400CE6BB6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDC03CC62C0E273400CE6BB6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDC03C812C0E25F100CE6BB6 /* AppDelegate.swift */,
+				BDC03C832C0E25F100CE6BB6 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +278,10 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				es,
+				ur,
+				fr,
 			);
 			mainGroup = BDC03C752C0E25F100CE6BB6;
 			productRefGroup = BDC03C7F2C0E25F100CE6BB6 /* Products */;
@@ -234,9 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC03CD82C0E30C500CE6BB6 /* Localizable.strings in Resources */,
 				BDC03C8E2C0E25F300CE6BB6 /* Assets.xcassets in Resources */,
-				BDC03C912C0E25F300CE6BB6 /* Base in Resources */,
-				BDC03C892C0E25F100CE6BB6 /* Base in Resources */,
+				BDC03CC52C0E268100CE6BB6 /* Color.xcassets in Resources */,
+				BDC03CC32C0E265400CE6BB6 /* Main.storyboard in Resources */,
+				BDC03CC22C0E265400CE6BB6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC03C8C2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodeld in Sources */,
-				BDC03C862C0E25F100CE6BB6 /* ViewController.swift in Sources */,
+				BDC03CBE2C0E265400CE6BB6 /* Intro01ViewController.swift in Sources */,
+				BDC03CBF2C0E265400CE6BB6 /* Intro02ViewController.swift in Sources */,
+				BD7B43902C0E566D0033D761 /* UpdateViewController.swift in Sources */,
+				BDC03CC12C0E265400CE6BB6 /* LanguageViewController.swift in Sources */,
+				BDC03CC02C0E265400CE6BB6 /* Intro03ViewController.swift in Sources */,
 				BDC03C822C0E25F100CE6BB6 /* AppDelegate.swift in Sources */,
 				BDC03C842C0E25F100CE6BB6 /* SceneDelegate.swift in Sources */,
+				BDC03CC82C0E27E600CE6BB6 /* StaticFunction.swift in Sources */,
+				BD7B438E2C0E45250033D761 /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,20 +374,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDC03C872C0E25F100CE6BB6 /* Main.storyboard */ = {
+		BDC03CBA2C0E265400CE6BB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDC03C882C0E25F100CE6BB6 /* Base */,
+				BDC03CB92C0E265400CE6BB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC03CBC2C0E265400CE6BB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC03CBB2C0E265400CE6BB6 /* Base */,
+				BDC03CCB2C0E2FE600CE6BB6 /* hi */,
+				BDC03CCD2C0E2FF500CE6BB6 /* en */,
+				BDC03CCE2C0E300A00CE6BB6 /* es */,
+				BDC03CCF2C0E301E00CE6BB6 /* ur */,
+				BDC03CD02C0E302700CE6BB6 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BDC03C8F2C0E25F300CE6BB6 /* LaunchScreen.storyboard */ = {
+		BDC03CD72C0E30C500CE6BB6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDC03C902C0E25F300CE6BB6 /* Base */,
+				BDC03CD62C0E30C500CE6BB6 /* hi */,
+				BDC03CD92C0E30C800CE6BB6 /* en */,
+				BDC03CDA2C0E30CD00CE6BB6 /* es */,
+				BDC03CDB2C0E30CF00CE6BB6 /* ur */,
+				BDC03CDC2C0E30D000CE6BB6 /* fr */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,6 +415,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -388,6 +479,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -605,19 +697,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BDC03C8A2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BDC03C8B2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodel */,
-			);
-			currentVersion = BDC03C8B2C0E25F100CE6BB6 /* CardMakerLanguage.xcdatamodel */;
-			path = CardMakerLanguage.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BDC03C762C0E25F100CE6BB6 /* Project object */;
 }

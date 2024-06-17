@@ -12,7 +12,7 @@
 "Hzn-b3-HAF.text" = "Urdu";
 
 /* Class = "UILabel"; text = "Fill the information for \nwhich you want to make the card"; ObjectID = "JqC-C3-djN"; */
-"JqC-C3-djN.text" = "Fill the information for \nwhich you want to make the card";
+"JqC-C3-djN.text" = "Fill the information for \nwhich you want to make \nthe card";
 
 /* Class = "UILabel"; text = "Thousands of cards to teasing your friends, \ngroups, families, lovers."; ObjectID = "OdD-Qh-4px"; */
 "OdD-Qh-4px.text" = "Thousands of cards to teasing your friends, \ngroups, families, lovers.";
@@ -62,5 +62,5 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "x3G-Bj-4nw"; */
 "x3G-Bj-4nw.normalTitle" = "Button";
 
-/* Class = "UILabel"; text = "Franch"; ObjectID = "xaY-bN-jye"; */
-"xaY-bN-jye.text" = "Franch";
+/* Class = "UILabel"; text = "French"; ObjectID = "xaY-bN-jye"; */
+"xaY-bN-jye.text" = "French";

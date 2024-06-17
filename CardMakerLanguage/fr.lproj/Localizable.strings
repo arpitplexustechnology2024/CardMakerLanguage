@@ -5,3 +5,22 @@
   Created by Arpit iOS Dev. on 03/06/24.
   
 */
+
+"LanguageScreenTitleKey" = "Choisissez votre\nlangue idéale";
+"LanguageScreenDescriptionKey" = "Vous recevrez une carte en fonction de votre langue";
+"languageHindiBtnKey" = "hindi";
+"languageEnglishBtnKey" = "Anglaise";
+"languageSpanishBtnKey" = "Espagnole";
+"languageUrduBtnKey" = "Ourdou";
+"languageFrenchBtnKey" = "Français";
+"languageLetsGoBtnKey" = "Allons-y";
+"LanguageScreenNoteKey" = "Vous pouvez changer de langue à tout moment dans la barre de menu.";
+"Intro01ScreenTitleKey" = "Choisissez n'importe quelle carte amusante d'un créateur de cartes comique";
+"Intro01ScreenDescriptionKey" = "Des milliers de cartes pour taquiner vos amis, groupes, familles, amoureux.";
+"Intro01NextBtnKey" = "Suivante";
+"Intro02ScreenTitleKey" = "Remplissez les informations pour que vous souhaitez créer la carte";
+"Intro02ScreenDescriptionKey" = "Entrez les informations amusantes de la carte que vous souhaitez créer et si vous êtes confus.";
+"Intro02NextBtnKey" = "Suivante";
+"Intro03ScreenTitleKey" = "Enregistrez ou partagez la carte amusante créée";
+"Intro03ScreenDescriptionKey" = "Défiez quelqu'un d'autre pour créer votre carte amusante";
+"Intro03DoneBtnKey" = "Fait";
